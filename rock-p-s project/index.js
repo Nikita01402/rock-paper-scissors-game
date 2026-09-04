@@ -47,7 +47,7 @@ if(userChoice==compChoice){
     }else if(userChoice==="paper"){
        userWin = compChoice==="scissors"?false:true;
     }else{
-       userWin = compChoice === "rock"? false:true;
+     userWin = compChoice === "rock"? false:true;
     }
   showWinner(userWin);
 }
